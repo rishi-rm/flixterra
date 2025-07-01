@@ -11,7 +11,7 @@ export default function MoviePlayer() {
 
       <div className="w-full max-w-5xl shadow-lg rounded-lg overflow-hidden border border-[#333] hover:border-[#00f0ff] transition-all duration-300">
         <video controls className="w-full h-auto rounded-lg bg-black">
-          <source src={`https://14de-2401-4900-1c6f-7509-9c2f-7275-6448-8cd6.ngrok-free.app/videos/${movieName}.mp4`} type="video/mp4" />
+          <source src={`https://6dcc-2401-4900-1c6f-7509-9c2f-7275-6448-8cd6.ngrok-free.app/videos/${movieName}.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
