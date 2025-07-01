@@ -7,7 +7,7 @@ function Header() {
   }
   return (
     <div className='w-full h-[4rem] flex text-white font-semibold justify-between mb-16  pr-8 items-center'>
-      <img src="src/assets/logo.png" className='h-[130px] w-[280px] -mr-4' alt="" />
+      <img src="/logo.png" className='h-[130px] w-[280px] -mr-4' alt="" />
       <div className='flex  w-[30%] justify-between'>
           <NavLink to="/" className={NavLinkClass}>Home</NavLink>
           <NavLink to="/favorites" className={NavLinkClass}>Favorites</NavLink>

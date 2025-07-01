@@ -47,7 +47,7 @@ function MovieCard({ movie, genreMap, fav, setFav, favMapIDs, setFavMapIds }) {
                   localStorage.setItem("FavMovies", JSON.stringify(updatedFav))
                   console.log(movie.title, "added to favorites")
                 }}
-              ><img src="src/assets/favorites.png" alt="" /></div>
+              ><img src="/favorites.png" alt="" /></div>
             }
           </div>
         </div>
